@@ -12,7 +12,7 @@ package_obj.name = package_name;
 package_obj.name_lower = package_name.toLowerCase();
 package_obj.namespace = process.env.npm_config_namespace;
 
-let template_path = './template/';
+let template_path = './templates/package/';
 
 
 let list_arr = [];
@@ -29,11 +29,17 @@ log.green("=====================================================================
 
 
 list.forEach(function(item) {
+
+
     file_content = fs.readFileSync(item).toString();
 
     file_name = path.basename(item);
-    new_path = item.replace('template', '');
+    new_path = item.replace('templates', '');
+    new_path = new_path.replace('package', '');
     new_path = new_path.replace(/\\/,'');
+    new_path = new_path.replace(/\\/,'');
+
+
     new_path = new_path.replace(file_name,'');
 
     switch(file_name) {

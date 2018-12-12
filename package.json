@@ -4,8 +4,8 @@
   "description": "Laravel Package Generator",
   "main": "index.js",
   "scripts": {
-    "start": "node start.js",
-    "reset": "node reset.js"
+    "start": "node scripts/start.js",
+    "reset": "node scripts/reset.js"
   },
   "repository": {
     "type": "git",
