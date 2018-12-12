@@ -1,13 +1,11 @@
 /.git
 /node_modules
-/public/storage
 /vendor
 /.idea
 Homestead.json
 Homestead.yaml
 .env
 .env.*
-/storage
 .DS_Store
 .DS_Store?
 ._*
