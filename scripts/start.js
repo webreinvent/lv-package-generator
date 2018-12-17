@@ -39,7 +39,7 @@ package_obj.author_email = readlineSync.question('What is author email? ', defau
 | Generate a config.json file for future usages
 |--------------------------------------------------------------------------
 */
-fsSync.write('./scripts/config.json', JSON.stringify(package_obj));
+fsSync.write('./config.json', JSON.stringify(package_obj));
 
 
 /*

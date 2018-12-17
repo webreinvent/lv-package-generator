@@ -1,1 +1,0 @@
-# Laravel Package Template Generator

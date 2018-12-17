@@ -14,7 +14,10 @@ let remove_list = {
         'views',
     ],
     'files': [
-        'routes.php'
+        'routes.php',
+        'README.md',
+        'config.json',
+        'composer.json'
     ]
 };
 

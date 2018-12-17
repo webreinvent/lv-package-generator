@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node scripts/start.js",
-    "reset": "node scripts/reset.js"
+    "reset": "node scripts/reset.js",
+    "make": "node scripts/make.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "fs": "0.0.1-security",
     "fs-extra": "^7.0.1",
     "fs-sync": "^1.0.6",
+    "minimist": "^1.2.0",
     "path": "^0.12.7",
     "readline-sync": "^1.4.9"
   }
