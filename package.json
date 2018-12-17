@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "reset": "node scripts/reset.js",
+    "readme": "node scripts/readme.js",
     "make": "node scripts/make.js"
   },
   "repository": {
