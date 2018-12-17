@@ -1,27 +1,18 @@
 {
-  "name": "vendor/package",
-  "description": "",
-  "keywords": [],
-  "homepage": "",
+  "name": "webreinvent/lvtags",
+  "description": "Laravel tags",
+  "keywords": ["laravel"],
+  "homepage": "http://wri.com",
   "license": "MIT",
   "authors": [
     {
-      "name": "",
-      "email": ""
+      "name": "pk",
+      "email": "pk@gmail.com"
     }
   ],
-  "require": {
-    "php": ">=5.4.0",
-    "illuminate/config": "~5.0",
-    "illuminate/support": "~5.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "~4.0"
-  },
   "autoload": {
     "psr-4": {
-      "Vendor\\Package\\": "src/"
+      "WebReinvent\\LvTags\\": "src/"
     }
-  },
-  "minimum-stability": "dev"
+  }
 }
