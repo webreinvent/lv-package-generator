@@ -77,7 +77,6 @@ files_list.forEach(function(item) {
     new_path = new_path.replace(file_name,'');
 
 
-
     switch(file_name) {
         case 'packagename.php':
             file_name = package_obj.package_name_lower+'.php';
@@ -91,6 +90,16 @@ files_list.forEach(function(item) {
             file_content = fs.readFileSync(item).toString();
             file_content = ejs.render(file_content, package_obj);
             file_name = 'composer.json';
+            break;
+        case 'Facade.ejs':
+            file_content = fs.readFileSync(item).toString();
+            file_content = ejs.render(file_content, package_obj);
+            file_name = package_obj.package_name+'Facade.php';
+            break;
+        case 'package.ejs':
+            file_content = fs.readFileSync(item).toString();
+            file_content = ejs.render(file_content, package_obj);
+            file_name = package_obj.package_name+'.php';
             break;
     }
 
