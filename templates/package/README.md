@@ -60,7 +60,7 @@ Register your package's service provider at `config/app.php`:
 Of course, you need to change `VendorName` & `PackageName` to yours.
 
 
-That's it, your package is ready for use in development environment.
+**That's it, your package is ready for use in development environment.**
 
 ## Support us
 
