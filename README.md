@@ -9,6 +9,4 @@
 - `npm run make controller:[name]`
 - `npm run make seed:[name]`
 - `npm run make migration:[name]`
-- `npm run make pivot:[name]`
-- `npm run make resource:[name]`
 

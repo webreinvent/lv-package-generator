@@ -9,7 +9,7 @@ let remove_list = {
     'folders': [
         'config',
         'lang',
-        'migrations',
+        'database',
         'src',
         'views',
     ],

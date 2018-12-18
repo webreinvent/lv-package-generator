@@ -25,6 +25,7 @@
   "homepage": "https://github.com/webreinvent/lv-package-generator#readme",
   "dependencies": {
     "color-console": "0.0.1",
+    "dateformat": "^3.0.3",
     "ejs": "^2.6.1",
     "files-generator": "^0.5.0",
     "fs": "0.0.1-security",
